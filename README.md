@@ -22,3 +22,6 @@ The most challenging part of this project was separating the backend logic from 
 1. Clone the Repository
 2. Compile the source files: javac src/*.java
 3. Run the main application: java src/CheckersGame
+
+**Note** 
+Please ensure the JUnit 4 library is installed and added to the project's dependencies.
