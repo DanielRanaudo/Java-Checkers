@@ -9,9 +9,9 @@ A classic checkers game built in Java using Swing Library as my final project fo
 # Code Overview
 The project was designed with a clear separation between frontend and backend logic.
 * Board: The core of the backend. Manages the 2D array representing the checkerboard, enforces game rules, handles piece movement, and tracks game history.
-* Piece: Represents a single piece object, holding all necessary states. Includes funcitons to be able to draw itself
+* Piece: Represents a single piece object, holding all necessary states. Includes functions to be able to draw itself
 * Board History: A helper class meant to store the Board state, which allows for undo functionality
-* Game & CheckersGame: These manage the frontend. They render the game board (including various functional buttons) and handles user input.
+* Game & CheckersGame: These manage the frontend. They render the game board (including various functional buttons) and handle user input.
 
 # Design Challenges and Reflection
 The most challenging part of this project was separating the backend logic from the frontend. Initially, my game logic was intertwined with the mouse listener. This made it impossible to test my backend functions independently.
@@ -23,5 +23,5 @@ The most challenging part of this project was separating the backend logic from 
 2. Compile the source files: javac src/*.java
 3. Run the main application: java src/CheckersGame
 
-**Note** 
+**Note:** 
 Please ensure the JUnit 4 library is installed and added to the project's dependencies.
