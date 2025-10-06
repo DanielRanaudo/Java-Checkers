@@ -17,3 +17,8 @@ The project was designed with a clear separation between frontend and backend lo
 The most challenging part of this project was separating the backend logic from the frontend. Initially, my game logic was intertwined with the mouse listener. This made it impossible to test my backend functions independently.
 
 **What I Learned:** I refractored my code, creating a clear boundary, which allowed me to test the mechanics of the game efficiently. It showed me the importance of modular design.
+
+# How to Run: 
+1. Clone the Repository
+2. Compile the source files: javac src/*.java
+3. Run the main application: java src/CheckersGame
